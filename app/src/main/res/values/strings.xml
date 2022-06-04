@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quan Ly Thu Vien</string>
+    <string name="thedocgia">Thêm độc giả</string>
+    <string name="phieumuonsach">Phiếu mượn sách</string>
+    <string name="thongtinsach">Nhập sách</string>
+    <string name="danhsachsach">Danh sách sách</string>
+    <string name="phieutrasach">Phiếu trả sách</string>
+    <string name="baocao">Báo cáo</string>
+    <string name="trangchu">Trang chủ</string>
+
+</resources>

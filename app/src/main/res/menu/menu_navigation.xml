@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bookInformationNV"
+        android:title="@string/thongtinsach"
+        android:icon="@drawable/ic_book_information"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/userNV"
+        android:icon="@drawable/ic_user"
+        android:title="@string/thedocgia"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/bookListNV"
+        android:icon="@drawable/ic_book_list"
+        android:title="@string/danhsachsach"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/borrowBookNV"
+        android:icon="@drawable/ic_borrow_book"
+        android:title="@string/phieumuonsach"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/giveBookBackNV"
+        android:icon="@drawable/ic_give_book_back"
+        android:title="@string/phieutrasach"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/noteNV"
+        android:icon="@drawable/ic_note"
+        android:title="@string/baocao"
+        app:showAsAction="always"/>
+
+</menu>
