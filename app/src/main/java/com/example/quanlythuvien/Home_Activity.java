@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.example.quanlythuvien.Fragment.Borrow_Book_Fragment;
 
-public class Home_Activity extends AppCompatActivity {
+public class Home_Activity extends BaseActivity {
     Button btnCancel_Home_BorrowBook;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

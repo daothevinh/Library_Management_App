@@ -7,5 +7,6 @@
     <string name="phieutrasach">Phiếu trả sách</string>
     <string name="baocao">Báo cáo</string>
     <string name="trangchu">Trang chủ</string>
+    <string name="msg_please_wait">Loading</string>
 
 </resources>

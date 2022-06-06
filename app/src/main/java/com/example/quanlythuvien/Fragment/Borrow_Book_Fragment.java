@@ -28,7 +28,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Borrow_Book_Fragment extends Fragment {
+public class Borrow_Book_Fragment extends BaseFragment {
     private EditText edtUserName_BorrowBook, edtBorrowDate_BorrowBook;
     private RecyclerView recyclerView_BorrowBook;
     private Borrow_Book_Adapter borrow_book_adapter;

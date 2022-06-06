@@ -11,7 +11,7 @@ import com.example.quanlythuvien.Adapter.ViewPager_Adapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
-public class Main_Activity extends AppCompatActivity {
+public class Main_Activity extends BaseActivity {
     private BottomNavigationView bottomNavigationView;
     private ViewPager2 viewPager2;
     private ViewPager_Adapter viewPager_adapter;

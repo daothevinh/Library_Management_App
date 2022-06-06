@@ -16,13 +16,13 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.quanlythuvien.Home_Activity;
 import com.example.quanlythuvien.R;
 
-public class Home_Fragment extends Fragment {
+public class Home_Fragment extends BaseFragment {
     Button btn_HomeFragment_BorrowBook;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home,container,false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         btn_HomeFragment_BorrowBook = view.findViewById(R.id.button_HomeFragment_BorrowBook);
         btn_HomeFragment_BorrowBook.setOnClickListener(new View.OnClickListener() {

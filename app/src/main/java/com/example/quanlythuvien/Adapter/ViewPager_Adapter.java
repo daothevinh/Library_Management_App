@@ -21,8 +21,6 @@ public class ViewPager_Adapter extends FragmentStateAdapter {
         switch (position) {
             case 0:
                 return new Create_Membership_Card_Fragment();
-            case 1:
-                return new Home_Fragment();
             case 2:
                 return new Book_Information_Fragment();
             default:

@@ -10,7 +10,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://oss.jfrog.org/libs-snapshot' }
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://maven.fabric.io/public'}
     }
 }
+
 rootProject.name = "Quan Ly Thu Vien"
 include ':app'
