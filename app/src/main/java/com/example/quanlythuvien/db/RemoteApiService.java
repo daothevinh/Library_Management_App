@@ -35,6 +35,10 @@ public interface RemoteApiService {
     Single<TheDocGia> getDocGia(@Path(value = "path", encoded = true) String path);
 
     @Headers("Content-Type: application/json")
+    @GET("thedocgias.json")
+    Single<String> getAllDocGia();
+
+    @Headers("Content-Type: application/json")
     @PUT("thongtinsach/{path}.json")
     Single<TheDocGia> addThongTinSach(@Path(value = "path", encoded = true) String path,
                                       @Body ThongTinSach theDocGia);
@@ -42,6 +46,10 @@ public interface RemoteApiService {
     @Headers("Content-Type: application/json")
     @GET("thongtinsach/{path}.json")
     Single<ThongTinSach> getThongTinSach(@Path(value = "path", encoded = true) String path);
+
+    @Headers("Content-Type: application/json")
+    @GET("thongtinsach.json")
+    Single<String> getAllThongTinSach();
 
     class Creator {
         private static final String ENDPOINT = "https://huongtestlab-e47ef-default-rtdb.asia-southeast1.firebasedatabase.app/database/";
