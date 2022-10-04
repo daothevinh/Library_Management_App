@@ -1,11 +1,14 @@
 package com.example.quanlythuvien;
 
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.utility.DebugLog;
 
 public class BaseActivity extends AppCompatActivity {
+    TextView txt;
     private MaterialDialog mProgressDialog;
 
     public void showLoading() {
