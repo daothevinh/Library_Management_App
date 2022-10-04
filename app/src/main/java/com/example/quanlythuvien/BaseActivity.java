@@ -1,5 +1,6 @@
 package com.example.quanlythuvien;
 
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +10,7 @@ import com.utility.DebugLog;
 
 public class BaseActivity extends AppCompatActivity {
     TextView txt;
+    Button btn;
     private MaterialDialog mProgressDialog;
 
     public void showLoading() {
